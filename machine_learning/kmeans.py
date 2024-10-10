@@ -26,6 +26,10 @@ def kmeans(X, k):
     return C
 
 
+def kmeans_torch(X, k):
+    pass
+
+
 if __name__ == '__main__':
     import itertools
     cluster_1 = np.array(list(itertools.product(range(-4, 2), range(-4, 2), range(-4, 4)))).astype(np.float)

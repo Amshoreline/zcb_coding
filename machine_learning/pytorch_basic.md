@@ -66,7 +66,7 @@ torch.backends.cudnn.benchmark = True
 torch.backends.cudnn.deterministic = True
 ```
 
-清楚GPU显存
+清除GPU显存
 
 ```python
 torch.cuda.empty_cache()
